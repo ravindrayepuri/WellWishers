@@ -1,0 +1,240 @@
+html,body
+{
+    overflow-x: hidden; 
+}
+body{
+    text-align: justify;
+    margin-top: 51;
+}
+
+.jumbotron{
+    background-image: url("../images/school_05.jpg");
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+        height: 380px;
+}
+
+.jumbotron h1{
+    color: #FFFFFF;
+}
+
+.jumbotron p{
+    color: red;
+}
+
+.nav {
+    margin-left: 23;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    /*min-height:400px;*/
+}
+
+.alternate:nth-child(odd){
+  background-color: #fdfdfd;
+}
+.alternate:nth-child(even){
+  background-color: #d3d3d3;
+}
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    /*position: relative;*/
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+figure img {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+
+figcaption{
+    text-align: center;
+}
+figcaption h3{
+    margin-bottom: 0;
+}
+.text-center{
+    text-align: center;
+}
+
+figure{
+    position: relative;
+}
+.boxcaption figcaption {
+    position: absolute;
+    background: #ffea00;
+    width:100%;
+}
+
+.image-square {
+    width: 200px;
+    height: 200px;
+    /*position: relative;*/
+    overflow: hidden;
+    
+}
+
+@media(min-width:768px)and(max-width:1200px){
+    .center{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media(max-width:767px){
+    .center-xs{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.block{
+    display: block;
+}
+
+.img_size{
+    height: auto;
+    width: 100%;
+}
+
+.rectangle{
+    height: auto;
+    width: 100%;
+}
+
+.don_img{
+    background-image: url("../images/2page_img_3.jpg");
+    background-color: hsla(0,0%,100%,0.70);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+}
+
+.yellow{
+    background-color: ffea00;
+}
+
+.gray{
+    background-color: #f6f6f6;
+}
+
+.white{
+    background-color: #ffea00;
+    position: absolute;
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 90%;
+}
+
+.btn{
+    border-radius: 0;
+    padding: 5 15;
+    margin: 5;
+}
+
+.black_overlay {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+.white_content {
+    display: none;
+    position: fixed;
+    top: 33.3%;
+    left: 33.3%;
+    width: 33.3%;
+    height: 33.3%;
+    padding: 16px;
+    border: 2px solid black;
+    background-color: white;
+    z-index: 1002;
+    overflow: auto;
+    text-align: center;  
+    min-width: 230px;
+    min-height: 230px;
+}
+.white_content img{
+    display: block;
+    margin: auto
+}
+.white_content p{
+    text-align: center;
+    display: block;
+    
+    margin: auto;
+}
+.white_content a{
+    display: block;
+    text-align: center;
+    padding: 0 50;
+    margin: auto;
+}
+
+.map{
+    border: 0;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    margin: 0 auto;
+}
+.navbar-static-bottom{
+    margin-bottom: 0;
+}
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      height: 680px;
+      max-height: 680px;  
+      }
+
+.support{
+    padding-bottom: 10px;
+}
+
+.support img{
+width: 100%; /* Set width to 100% */
+      margin: auto;
+      height: 500px;
+      max-height: 500px;  
+
+}
+.ourwork{
+    line-height: 2.5em;
+}
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+
